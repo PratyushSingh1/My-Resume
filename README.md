@@ -1,4 +1,8 @@
 Pratyush-Resume
+
+For making your Resume click this Link :- https://www.overleaf.com/read/jmcrvkxjdpxn
+And create a copy and then you can edit it!
+
 =========================
 
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
