@@ -1,0 +1,241 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Pratyush}{Singh}{ \urlstyle{same}\sectionsep \\
+\href{mailto:singhpratyush551@gmail.com}{Email :- 
+ singhpratyush551@gmail.com} \sectionsep \\
+\href{tel:+91}{Phone No. :- }}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Vishwakarma-University VU}
+\descript{BTech}
+\location{July 2023 | Pune, India}
+\sectionsep
+
+\subsection{BHIS Malad}
+\descript{12th | CBSE}
+\location{May 2019 | Mumbai, India}
+\sectionsep
+
+\subsection{SSA Mira Road}
+\descript{10th | CBSE}
+\location{July 2017 | Mumbai, India}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+
+Github:// \href{https://github.com/PratyushSingh1}{\bf pratyushsingh} \\
+LinkedIn://  \href{https://www.linkedin.com/in/pratyush-singh-dataanalyst/}{\bf pratyushsingh} \\
+Facebook:// \href{https://www.facebook.com/pratyush.singh.5872?mibextid=LQQJ4d}{\bf pratyushsingh} \\
+Instagram:// \href{https://instagram.com/pratshhh?igshid=OGQ5ZDc2ODk2ZA==}{\bf pratyushsingh}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\section{Skills}
+\subsection{Programming}
+Python \textbullet{}   MySQL \textbullet{} Microsoft Excel \textbullet{} Power BI \textbullet{} Data Mining \textbullet{}  \\ Machine Learning \textbullet{} RDBMS\\ Web Scrapping \\ 
+\sectionsep
+% \location{Over 1000 lines:}
+%  C++ \textbullet{} C Sharp \\
+%  \sectionsep
+\location{Familiar:}
+Tableau \textbullet{} SAP \textbullet{} AWS
+\sectionsep
+
+\subsection{Other}
+GitHub \textbullet{}   webflow \textbullet{} Vs Studio \textbullet{} Postman \\
+Photoshop \textbullet{} Canva \textbullet{} Communication Skills  \textbullet{} Problem Solving \textbullet{} Leadership \\ 
+Research \textbullet{} Business accumen \\
+\\
+\section{Certifications}
+The Data Science-Udemy \textbullet{} Machine Leanring-Udemy \textbullet{} Text Anlalytics-LinkedIn Leanring \textbullet{} Power BI-Great Learning \textbullet{} Data Mining-Great Leanring  \textbullet{} Google Analytics-LinkedIn Learning \textbullet{} Social Media Marketing-LinkedIn Learning \\ 
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\location{Total Experience - 1 Year }
+\sectionsep
+\runsubsection{W3Services Infotech India}
+\descript{| Jr. Data Scientist Intern }
+\location{July 2022 - May 2023 | Thane, India}
+\location{(Internship)}
+\vspace{\topsep}
+\begin{tightemize}
+\item contributed in the development of website "Lead management system" with the full stac developer team.
+\item Analyzed and visualized Sales data using Power BI and MySQL to identify patterns and trends. 
+\item Cleaned and manipulated data using Pandas to prepare it for Data analysis and Visualisation.
+\item Performed EDA(Exploratory Data Analysis) on various projects. 
+\item Managed Dashboard as well as Reporting and presentation.
+\end{tightemize}
+\sectionsep
+
+
+
+
+
+\runsubsection{The spark Foundation}
+\descript{| Data Science and business Analytics}
+\location{February 2022 – March 2022 | Singapore, India}
+\location{(Internship)}
+\begin{tightemize}
+\item Did Prediction using Supervised Machine Learning.
+\item Did Prediction using Unsupervised ML.
+\item Performed Prediction Using Decision Tree Algorithm.
+\item Created a Dashboard which detects the sales and Profit of the product by country and City .
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Secure-Your-Visa (Job Board)}
+\descript{| Full Stack Based Project}
+\location{February 2023 – Present}
+Checkout \textbf{\href{https://github.com/PratyushSingh1}{GitHub}} 
+\sectionsep
+
+\runsubsection{Netflix EDA(Exploratory data analysis)}
+\descript{| Data Analysis Based project} Checkout 
+ \textbf{\href{https://github.com/PratyushSingh1/Netflix-EDA}{On my GitHub }}.
+\sectionsep
+
+\runsubsection{Flipkart(Boat-Headphones)-Sentiment-Analysis}
+\descript{| Data Science Based Project} Checkout code on 
+ \textbf{\href{https://github.com/PratyushSingh1/Sentimental-Analysis-Flipkart-}{GitHub}}.
+\sectionsep
+
+\runsubsection{HR Analytics}
+\descript{| HR Data Analysis Based Project} Checkout code on 
+ \textbf{\href{https://github.com/PratyushSingh1/Hr-Analytics}{GitHub}}.
+\sectionsep
+
+\runsubsection{Cars Re-sale Data Analysis }
+\descript{| Data Analysis Project} Checkout 
+ \textbf{\href{https://github.com/PratyushSingh1/Cars_Data_Analysis}{GitHub}}.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2019	     & Second in CHESS competition on Sports Day organized by SAITM\\
+% 2018	     & Won CHESS competition on Sports Day organized by SAITM\\
+% 2017	     & 41th rank in MD University (BCA 3RD SEM) in Dec\\
+% 2017	     & 49th rank in MD University (BCA 2ND SEM) in May\\
+% \end{tabular}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Publications} 
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
