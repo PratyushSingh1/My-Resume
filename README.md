@@ -1,4 +1,4 @@
-Deedy-Resume
+Pratyush-Resume
 =========================
 
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
@@ -18,10 +18,10 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 ## Preview
 
 ### OpenFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/Pratyushdas/Pratyush-Resume/master/OpenFonts/sample-image.png)
 
 ### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/Pratyushdas/Pratyush-Resume/master/MacFonts/sample-image.png)
 
 ## Dependencies
 
@@ -30,10 +30,10 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 
 ## Availability
 
-1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/MacFonts/deedy_resume.pdf)
-2. OpenFonts version - [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/OpenFonts/deedy_resume-openfont.pdf)
-3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
-4. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/deedy-resume)
+1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/Pratyushdas/Pratyush-Resume/raw/master/MacFonts/Pratyush_resume.pdf)
+2. OpenFonts version - [as a direct download](https://github.com/Pratyushdas/Pratyush-Resume/raw/master/OpenFonts/Pratyush_resume-openfont.pdf)
+3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/Pratyush-resume/sqdbztjjghvz#.U2H9Kq1dV18)
+4. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/Pratyush-resume)
 
 ## Changelog
 ### v1.2
@@ -62,7 +62,7 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 3. Hacky redefinition of \refname to omit 'References' text for publications in the MacFonts version.
 
 ## License
-    Copyright 2014 Debarghya Das
+    Copyright 2014 Pratyush Singh
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
